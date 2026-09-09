@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-import Chart from 'solid-apexcharts';
+import { SolidApexCharts } from 'solid-apexcharts';
 import type { ApexOptions } from 'apexcharts';
 
 const App: Component = () => {
@@ -26,7 +26,7 @@ const App: Component = () => {
     <div class="p-8">
       <h1 class="text-3xl font-bold text-center mb-8">ApexCharts with Solid.js</h1>
       <div class="max-w-4xl mx-auto">
-        <Chart options={options} series={options.series} type="bar" height={350} />
+        <SolidApexCharts options={options} series={options.series} type="bar" height={350} />
       </div>
     </div>
   );

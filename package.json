@@ -19,8 +19,8 @@
     "vite-plugin-solid": "^2.11.8"
   },
   "dependencies": {
-    "apexcharts": "^7.1.0",
-    "solid-apexcharts": "^0.6.0",
+    "apexcharts": "5.4.0",
+    "solid-apexcharts": "0.6.0",
     "solid-js": "^1.9.9"
   }
 }

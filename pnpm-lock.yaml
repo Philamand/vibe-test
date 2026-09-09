@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       apexcharts:
-        specifier: ^7.1.0
-        version: 7.1.0
+        specifier: 5.4.0
+        version: 5.4.0
       solid-apexcharts:
-        specifier: ^0.6.0
-        version: 0.6.0(apexcharts@7.1.0)(solid-js@1.9.9)
+        specifier: 0.6.0
+        version: 0.6.0(apexcharts@5.4.0)(solid-js@1.9.9)
       solid-js:
         specifier: ^1.9.9
         version: 1.9.9
@@ -588,12 +588,11 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  apex-commons@0.5.0:
-    resolution: {integrity: sha512-xz83SgPREE1wGtoflvxjwJtcjzl5bKTz2/bDxWCZNL6QVjUNE47kMg/1Zqt0bSh6eOnmFCWlTDc3RU8o85N+wg==}
+  '@yr/monotone-cubic-spline@1.0.3':
+    resolution: {integrity: sha512-FQXkOta0XBSUPHndIKON2Y9JeQz5ZeMqLYZVVK93FliNBFm7LNMIZmY6FrMEB9XPcDbE2bekMbZD6kzDkxwYjA==}
 
-  apexcharts@7.1.0:
-    resolution: {integrity: sha512-zO43jUhHBNz+riahvkVvlqYw8Zpog5KtpdVSc9PbvOiXAmPBaSSoleUtO83NktObHZ9LnNt3M4MdYx7m+aSDMw==}
-    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
+  apexcharts@5.4.0:
+    resolution: {integrity: sha512-qyEypKc1nixORUHdwO30izyyCqH9A4NsxQZ6Xrlq+ABEamOED1AoSg3eHaJMPRGT+wfE09wucLqwvk8oSr3tdA==}
 
   babel-plugin-jsx-dom-expressions@0.40.1:
     resolution: {integrity: sha512-b4iHuirqK7RgaMzB2Lsl7MqrlDgQtVRSSazyrmx7wB3T759ggGjod5Rkok5MfHjQXhR7tRPmdwoeGPqBnW2KfA==}
@@ -1442,11 +1441,11 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  apex-commons@0.5.0: {}
+  '@yr/monotone-cubic-spline@1.0.3': {}
 
-  apexcharts@7.1.0:
+  apexcharts@5.4.0:
     dependencies:
-      apex-commons: 0.5.0
+      '@yr/monotone-cubic-spline': 1.0.3
 
   babel-plugin-jsx-dom-expressions@0.40.1(@babel/core@7.28.4):
     dependencies:
@@ -1672,9 +1671,9 @@ snapshots:
 
   seroval@1.3.2: {}
 
-  solid-apexcharts@0.6.0(apexcharts@7.1.0)(solid-js@1.9.9):
+  solid-apexcharts@0.6.0(apexcharts@5.4.0)(solid-js@1.9.9):
     dependencies:
-      apexcharts: 7.1.0
+      apexcharts: 5.4.0
       defu: 6.1.7
       solid-js: 1.9.9
 
